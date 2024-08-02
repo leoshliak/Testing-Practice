@@ -35,4 +35,4 @@ function mod(n, p) {
   return r;
 }
 
-module.exports = {caesarCipher, mod};
+module.exports = caesarCipher;

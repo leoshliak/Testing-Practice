@@ -1,4 +1,4 @@
-const {caesarCipher, mod} = require('./caesarCipher');
+const caesarCipher = require('./caesarCipher');
 
  test('wrapping from z to a test ', () => {
    expect(caesarCipher('xyz', 3)).toBe('abc');
